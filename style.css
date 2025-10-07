@@ -1,44 +1,65 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-      <title> Leia's Amazing Website</title>
-      <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-      <div id="all-contents">
-        <nav>
-          <h1> Leia's Glorious Website</h1>
-          <ul id="nav-ul">
-            <li class="nav-li">
-              <a href="index.html"> Home </a>
-            </li>
-            <li class="nav-li">
-              <a href="portdolio.html"> Portfolio</a>
-            </li>
-          </ul>
-        </nav>
-        <main>
-         
-          <div class= 'sidebar'>
-            
-             <img class="sidebar-img" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXoSfUNYwU6hK9RwHu06mducXVdYsL5URreQ&s>
-          </div>
-          <div class="content">
-<h2> Leia Edmond</h2>
-            <p> Student at Tulane University</p>
+   body {
+       background: ___________________;
+       color: navy;
+       padding: 10px;
+       font-family: arial;
+   }
+   #all-contents {
+     max-width: 800px;
+       margin: auto;
+   }
 
-          
-          
-          <div id="interests">
-            <h3>Interests</h3>
-            <ul>
-              <li> Dance </li>
-              <li> cooking</li>
-              <li> Playing tennis</li>
-            </ul>
-          </div>
-          </div>
-        </main>
-      </div>
-</html>
+   /* navigation menu */
+   nav {
+       background: ___________________;
+      margin: 0 auto;
+     margin-bottom: 20px;
+       display: flex;
+       padding: 10px;
+   }
+   h1 {
+       display: flex;
+       align-items: center;
+       color: navy;
+       flex: 1;
+       margin: 0;
+   }
+   #nav-ul {
+       list-style-image: none;
+   }
+   .nav-li {
+       display: inline-block;
+     
+       padding: 0 10px;
+   }
+   a {
+       text-decoration: none;
+       color:navy;
+   }
+
+   /* main container area beneath menu */
+   main {
+       background: ___________________;
+       display: flex;
+   }
+   .sidebar {
+       margin-right: 25px;
+       padding: 10px;
+   }
+   .sidebar-img {
+       width: 200px;
+   }
+   .content {
+       flex: 1;
+       padding: 15px;
+   }
+
+   /* portfolio styles */
+   #interests {
+       border: 3px gray solid;
+       padding: 8px;
+   }
+   h2, h3 {
+       margin: 0px;
+   }
